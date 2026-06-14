@@ -6,7 +6,7 @@ An advanced React e‑commerce app with **Firebase Authentication + Firestore**,
 
 ## 🌐 Live demo
 
-👉 **https://YOUR-PROJECT.vercel.app**  ← replace with your Vercel URL after deploying
+👉 **https://module-project-implementing-cicd-pi.vercel.app**
 
 ---
 
@@ -24,11 +24,11 @@ An advanced React e‑commerce app with **Firebase Authentication + Firestore**,
 
 Tests use **Jest** + **React Testing Library**.
 
-| File                        | Type        | What it checks                                        |
-| --------------------------- | ----------- | ----------------------------------------------------- |
-| `cartSlice.test.js`         | Unit        | Cart reducer: add, increment, remove, clear, totals.  |
-| `ProductCard.test.jsx`      | Unit        | Renders product info; clicking the button adds to cart.|
-| `cartIntegration.test.jsx`  | Integration | Adding a product updates the cart count and total.    |
+| File                       | Type        | What it checks                                          |
+| -------------------------- | ----------- | ------------------------------------------------------- |
+| `cartSlice.test.js`        | Unit        | Cart reducer: add, increment, remove, clear, totals.    |
+| `ProductCard.test.jsx`     | Unit        | Renders product info; clicking the button adds to cart. |
+| `cartIntegration.test.jsx` | Integration | Adding a product updates the cart count and total.      |
 
 Run the tests:
 
